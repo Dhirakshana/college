@@ -1,0 +1,219 @@
+﻿<html>
+<head>
+<script language="javascript" type="text/javascript">
+function multiply1(){
+	x = parseInt(document.getElementById("number1").value);
+	y = document.getElementById("total1");
+    
+    
+    c=x*75;
+    y.value=c;
+	
+}
+
+function multiply2(){
+	x = parseInt(document.getElementById("number2").value);
+	y = document.getElementById("total2");
+    
+    
+    c=x*100;
+    y.value=c;
+	
+}
+
+function multiply3(){
+	x = parseInt(document.getElementById("number3").value);
+	y = document.getElementById("total3");
+    
+    
+    c=x*75;
+    y.value=c;
+	
+}
+
+function multiply4(){
+	x = parseInt(document.getElementById("number4").value);
+	y = document.getElementById("total4");
+    
+    
+    c=x*100;
+    y.value=c;
+	
+}
+
+function multiply5(){
+	x = parseInt(document.getElementById("number5").value);
+	y = document.getElementById("total5");
+    
+    
+    c=x*50;
+    y.value=c;
+	
+}
+
+function multiply6(){
+	x = parseInt(document.getElementById("number6").value);
+	y = document.getElementById("total6");
+    
+    
+    c=x*100;
+    y.value=c;
+	
+}
+
+function add()
+{
+var num1=parseInt(document.calculator.total1.value);
+var num2=parseInt(document.calculator.total2.value);
+var num3=parseInt(document.calculator.total3.value);
+var num4=parseInt(document.calculator.total4.value);
+var num5=parseInt(document.calculator.total5.value);
+var num6=parseInt(document.calculator.total6.value);
+document.calculator.sum.value=num1+num2+num3+num4+num5+num6;
+alert("sum"+(num1+num2+num3+num4+num5+num6));
+}
+
+
+</script>
+</head>
+<body>
+<div>
+<p style="float: right;"><img src="images/food.jpg" ></p>
+
+</div>
+
+
+<br>
+<br> 
+<form name="calculator">
+<div>
+<p style="float: left;"><img src="images/dough2.jpg" width="250" height="250"></p>
+<p></p>
+</div>
+
+<center><H1> YOUR ORDERS PLEASE...</H1></CENTER>
+<center><br><input type="checkbox" name="food" value="Briyani" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VEG-BRIYANI  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+Number 1: <input type="text" name="number1" id="number1">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total1" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply1();"></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br></center>
+
+
+
+
+<center><br><input type="checkbox" name="food" value="Briyani" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NON VEG-BRIYANI &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+Number 1: <input type="text" name="number1" id="number2">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total2" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply2();"></center>
+
+</select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <br></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center><br><input type="checkbox" name="food" value="fried rice" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VEG-FRIED RICE  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Number 1: <input type="text" name="number1" id="number3">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total3" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply3();"></center>
+
+<center><br><input type="checkbox" name="food" value="Briyani" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NON VEG-FRIED RICE  &nbsp&nbsp&nbsp&nbsp&nbsp   
+Number 1: <input type="text" name="number1" id="number4">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total4" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply4();"></center>
+
+
+
+<center><br><input type="checkbox" name="food" value="NOODLES" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VEG-NOODLES  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Number 1: <input type="text" name="number1" id="number5">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total5" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply5();"></center>
+
+
+<br><center><input type="checkbox" name="food" value="Briyani" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  NON VEG-NOODLES  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Number 1: <input type="text" name="number1" id="number6">
+
+
+
+
+
+
+
+Get Result: <input type="text" id="total6" name="total"> 
+
+<center><input type="button" value="MUL" onclick="javascript:multiply6();"></center>
+<input type="text" name="sum">
+<input type="button" value="sum" onclick="javascript:add();">
+</form>
+</body>
+</html>
